@@ -1,13 +1,13 @@
-let element1=['hydrogen','H','1.008']
-let element2=['helium','He','4.003']
-let element3=['iron','Fe',55.85]
-
-function insert(e){
-    table.push(e)
-}
-let table=[]
-insert(element1)
-insert(element2)
-insert(element3)
-
+element1 = ['hydrogen' , 'H' , 1.008]
+element2 = ['helium','He' ,4.003]
+element26 = ['iron' , 'Fe' , 55.85]
+table = []
+table.push(element1)
+table.push(element2)
+table.push(element26)
 console.log(table)
+console.log(table[1])
+console.log(table[1][1])
+console.log(table[0][2])
+console.log(table[1][0])
+console.log(table[2][1])
